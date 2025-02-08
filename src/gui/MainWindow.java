@@ -10,7 +10,11 @@ import java.sql.SQLException;
 import javax.swing.border.LineBorder;
 
 public class MainWindow extends JFrame {
-    private JTextField tfNombre, tfApellido, tfEdad, tfTelefono, tfDireccion;
+    private final JTextField tfNombre;
+    private JTextField tfApellido;
+    private JTextField tfEdad;
+    private JTextField tfTelefono;
+    private JTextField tfDireccion;
     private JComboBox<String> cbGenero;
     private JButton btnRegistrar;
 
